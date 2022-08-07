@@ -1,0 +1,11 @@
+{
+    "{apps,libs}/**/*.{less}": [
+        "prettier --write"
+    ],
+    "{apps,libs}/**/*.{ts,js}": [
+        "npx eslint --fix"
+    ],
+    "{apps,libs}/**/*.{template.html}": [
+        "prettier --write"
+    ]
+}
